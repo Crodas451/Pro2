@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontedEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Red+Hat+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+    <header class="header"> 
+        <a href="index.html">
+            <img class="header__log" src="img/logo.png" alt="LogoTipo">
+
+        </a>
+    </header>
+
+        <nav class="nav">
+            <a class="nav__E nav__E--activo" href="index.html">Tienda</a>
+            <a class="nav__E" href="nosotros.html">Nosotros</a>
+        </nav>
+    
+        <main class="contenedor">
+            <h1>React JS</h1>
+            <div class="camisa">
+                <img class="camisa__img" src="img/3.jpg" alt="image del producto">
+                <div class="camisa__cont">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Donec tempus tortor augue, a dignissim turpis lobortis vitae.
+                        Fusce placerat, augue in elementum commodo, diam metus efficitur est, 
+                        sed pellentesque lectus sem mattis urna. Praesent commodo nec elit quis vulputate.
+                        Quisque convallis sapien nec tempor convallis.</p>
+
+                        <form class="formulario" action="">
+                            <select class="formulario__campo" name="" id="">
+                                <option disabled selected value="">--Selecionar Talla--</option>
+                                <option value="">Chica</option>
+                                <option value="">Mediana</option>
+                                <option value="">Grande</option>
+                            </select>
+
+                            <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                            <input class="formulario__submit" type="submit" value="Agregar Al Carrito">
+                        </form>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="footer__texto">Front End Store - Todos Los Derechos Reservados 2022.</p>
+        </footer>
+</body>
+</html>
